@@ -1,0 +1,26 @@
+.Categories {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0;
+  background-color: #F7F7F7;
+  margin: 2rem 0;
+  h1 {
+    margin: 1rem 2rem;
+    color: #09144F;
+  }
+
+  .CategoriesList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .CategoriesListCard {
+    padding: 0 1rem;
+    h5 {
+      color: #4F4F4F;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,124 @@
+.Navbar {
+  width: 100%;
+  height: 80px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+.Navbar .firstLine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  overflow: hidden;
+}
+.Navbar i {
+  font-size: 1.5rem;
+  color: #0EC99E;
+}
+.Navbar a {
+  color: black;
+}
+.Navbar .logo {
+  width: 200px;
+}
+.Navbar .searchbar {
+  width: 65vw;
+}
+.Navbar .searchbar input {
+  width: 60vw;
+  left: 5px;
+  background-color: #ECE9FD;
+  outline: none;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 1rem;
+}
+.Navbar .searchbar a {
+  position: relative;
+  right: 35px;
+  top: 2px;
+}
+.Navbar .signOrRegister {
+  display: flex;
+  align-items: center;
+}
+.Navbar .signOrRegister .signOrRegisterIcon {
+  margin-right: 1rem;
+}
+.Navbar .shipingCard {
+  margin: 0 1.5rem;
+}
+@media (max-width: 1250px) {
+  .Navbar .searchbar {
+    width: 55vw;
+  }
+  .Navbar .searchbar input {
+    width: 50vw;
+  }
+}
+@media (max-width: 1000px) {
+  .Navbar .searchbar {
+    width: 45vw;
+  }
+  .Navbar .searchbar input {
+    width: 40vw;
+  }
+}
+@media (max-width: 800px) {
+  .Navbar .searchbar {
+    width: 35vw;
+  }
+  .Navbar .searchbar input {
+    width: 30vw;
+  }
+}
+@media (max-width: 680px) {
+  .Navbar .searchbar {
+    width: 25vw;
+  }
+  .Navbar .searchbar input {
+    width: 20vw;
+  }
+}
+@media (max-width: 600px) {
+  .Navbar .signOrRegisterText {
+    display: none;
+  }
+  .Navbar .searchbar {
+    width: 35vw;
+  }
+  .Navbar .searchbar input {
+    width: 30vw;
+  }
+  .Navbar i {
+    font-size: 1rem;
+    color: #0EC99E;
+  }
+}
+@media (max-width: 470px) {
+  .Navbar .signOrRegister {
+    display: none;
+  }
+  .Navbar .shipingCard {
+    display: none;
+  }
+  .Navbar .searchbar {
+    width: 45vw;
+  }
+  .Navbar .searchbar input {
+    width: 40vw;
+  }
+}
+@media (max-width: 370px) {
+  .Navbar .searchbar {
+    width: 35vw;
+  }
+  .Navbar .searchbar input {
+    width: 30vw;
+  }
+  .Navbar .searchbar i {
+    font-size: 0.8rem;
+    color: #0EC99E;
+  }
+}
+
+/*# sourceMappingURL=Navbar.css.map */

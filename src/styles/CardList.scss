@@ -1,0 +1,95 @@
+.cardList {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.titleText {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 1.5rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1.5rem;
+}
+
+.card {
+  margin: 0 2rem;
+  h1 {
+    span {
+      font-size: 1rem;
+      font-weight: 400;
+      vertical-align: 12px;
+    }
+  }
+}
+
+.cardImgHere {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  width: 20vw;
+  img {
+    width: 18vw;
+  }
+}
+
+.discount {
+  display: flex;
+  .discountText {
+    margin-right: 0.8rem;
+  }
+  .discountText.num {
+    background-color: red;
+    border-radius: 10px 0 15px 0;
+    color: white;
+    padding: 0 0.5rem;
+  }
+
+  .discountText.lim {
+    background-color: #F69904;
+    border-radius: 10px 0 15px 0;
+    color: #A25B02;
+    padding: 0 0.5rem;
+  }
+}
+
+.shipingText {
+  color: #1946B8;
+  letter-spacing: 1.5px;
+}
+
+.start i {
+  color: #ff9700;
+  letter-spacing: 2px;
+}
+
+.ProductName {
+  margin: 0.3rem 0;
+}
+
+.cardPrice {
+  display: flex;
+  align-items: baseline;
+  p {
+    margin: 0 1.5rem;
+    color: #707070;
+    text-decoration-line: line-through;
+  }
+}
+
+.titleText {
+  h1 {
+    color: #09144F;
+    font-weight: 900;
+  }
+  a {
+    color: #828282;
+  }
+}
+
